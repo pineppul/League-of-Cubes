@@ -1,0 +1,15 @@
+{
+  "name": "loc-relay-server",
+  "version": "1.0.0",
+  "description": "LOC (League of Cubes) - minimal WebSocket room-code relay server for the online 1v1 duel mode",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
